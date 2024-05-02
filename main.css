@@ -1,0 +1,126 @@
+.navbar-scrolled{
+  background-color: #036;
+}
+.navbar{
+  transition: all 0.0s;
+}
+
+.title .caption-bottom {
+  font-size: 14px;
+  font-weight: 100;
+  padding: 5px;
+}
+.title .caption-bottom {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  padding: 10px 10px;
+  background: rgba(0, 0, 0, 0.5);
+  color: #fff;
+  font-family: 'Montserrat', sans-serif;
+  width: 100%;
+  text-align: center;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.title1 .caption-bottom {
+  font-size: 14px;
+  font-weight: 100;
+  padding: 5px;
+}
+.title1 .caption-bottom {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  padding: 10px 10px;
+  color: #fff;
+  font-family: 'Montserrat', sans-serif;
+  width: 100%;
+  text-align: center;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.hero{
+  width: 100%;
+  height: 100vh;
+  position: relative;
+  padding: 0 5%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+ .content{
+  text-align: center;
+ }
+ .content .button{
+  font-size: 40px;
+ }
+.back-video{
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  z-index: -1;
+}
+
+.card .btn:hover {
+  background-color: rgb(170, 69, 69);
+}
+.card .btn{
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    padding: 5px 8px;
+    background-color: #900;
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    font-size: 12px;
+    font-weight: 300;
+    border-radius: 0;
+}
+.overlay{
+  width: 100%;
+  height: 0;
+  background:linear-gradient(transparent, #aeacac 58%);
+  border-radius: 0px;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 0 40px;
+  text-align: center;
+  font-size: 14px;
+  transition: height 0.5s;
+  }
+
+  .text {
+    color: rgb(243, 235, 235);
+    font-size: 18px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+  .boxLhover img{
+    transform: scale(1.2);
+    }
+    .box:hover .overlay{
+      width: 100%;
+    height: 100%;
+    }
+.scroll-bg{
+  padding: 30px;
+}
+.scroll-div{
+  overflow: hidden;
+  overflow-y: scroll;
+}
